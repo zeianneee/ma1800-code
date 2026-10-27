@@ -1,0 +1,41 @@
+/* Add styles for the class and ID selectors */
+
+
+body { 
+
+background: #fff; 
+color: #f00;
+font-family: sans-serif; 
+
+}
+
+P { 
+
+margin: 50px; 
+padding: 25px; 
+font-size: 16pt;
+border: 2px solid #000; 
+
+}
+
+div { 
+
+border: 5px dashed #00f;
+color: #f00; 
+
+}
+
+.highlight {
+
+background: #ff0; 
+
+}
+
+
+#summary { 
+
+font-size: 24pt;
+font-style: italic;
+color: #00f; 
+
+}

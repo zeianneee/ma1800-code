@@ -1,0 +1,26 @@
+/* Add the background image and repeat styles */
+
+
+body {
+
+width: 100%; 
+height: 100%;
+margin: 0;
+padding: 0;
+background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/1280px-Felis_catus-cat_on_snow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail);
+background-repeat: repeat;
+
+}
+
+
+div {
+
+width: 100%; 
+height: 100%;
+margin: 0;
+padding: 0;
+background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/1280px-Felis_catus-cat_on_snow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail);
+background-repeat: repeat;
+opacity: 0.5; 
+
+}
