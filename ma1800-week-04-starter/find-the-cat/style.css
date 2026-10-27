@@ -1,0 +1,68 @@
+/* Position the clues and the cat around the page */
+
+
+body { 
+
+height: 4000px; 
+font-family: monospace;
+font-size: 14px;
+background: linear-gradient(0deg, lightblue 0%, orange 100%);
+
+}
+
+#fixed {
+
+position: fixed;
+left: 10px; 
+top: 50px;
+text-align: right;
+
+}
+
+#cat {
+
+    position: absolute;
+    left: 2000px; 
+    top: 2500px; 
+    font-size: 12px;
+    padding: 0 150px;
+
+}
+
+
+#wrong {
+
+    position: absolute
+    left: 3500px; 
+    top: 3500px; 
+    font-size: 18px;
+    padding: 100px; 
+
+}
+
+
+#clue { 
+
+position: absolute 
+left: 0px; 
+top: 3500px;
+font-size: 18px;
+padding: 100px;
+
+}
+
+
+a { 
+
+color: black;
+background: #fdbb2d;
+text-decoration: none;
+
+}
+
+
+a:hover { 
+
+text-decoration: underline;
+
+}
