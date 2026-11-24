@@ -1,0 +1,38 @@
+
+
+
+h1 { 
+
+    font-size: 4em;
+    margin: 25px;
+    color: white; 
+
+    animation: flash 2s normal infinite;
+}
+
+@keyframes flash {
+
+0% {color: brown}
+50% {color: chocolate}
+100% {color: burlywood}
+
+}
+
+.message1 { 
+
+animation-delay: 0s;
+
+}
+
+.message2 { 
+
+animation-delay: 2s;
+
+}
+
+.message3 { 
+
+animation-delay: 4s;
+
+}
+

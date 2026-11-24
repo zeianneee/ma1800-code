@@ -1,0 +1,48 @@
+
+
+body { 
+
+margin: 0; 
+padding: 0;
+font-size: 100%;
+font-family: monospace;
+
+}
+
+#container { 
+
+width: 300px;
+height: 300px;
+border: dashed 3px black; 
+
+}
+
+p { 
+
+font-size: 4rem;
+margin: 0;
+padding: 0;
+
+}
+
+.moving { 
+
+position: relative;
+color: darkslateblue; 
+text-align: left;
+border: dashed 3px darkslateblue;
+
+
+animation: move 5s ease infinite alternate;
+
+}
+
+@keyframes move { 
+
+    0% {top: 0%; left: 0%;}
+    25% {top: 100%; left: 100%;}
+    50% {top: 0%; left: 100%;}
+    100% {top: 100%; left: 0%;}
+
+
+}

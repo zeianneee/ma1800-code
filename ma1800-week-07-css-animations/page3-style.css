@@ -1,0 +1,29 @@
+
+
+body { 
+
+    font-family: monospace;
+
+}
+
+h1 { 
+
+font-size: 4rem;
+
+}
+
+
+.colourCycling { 
+
+padding: 50px;
+animation: cycle 5s alternate-reverse infinite;
+
+}
+
+@keyframes cycle { 
+
+0% { color: pink }
+25% { color: peachpuff}
+50% { color: lightblue}
+100% { color: paleturquoise }
+}
